@@ -1,0 +1,9 @@
+	{
+	  queryArtists(byName:"Prince") {
+	    name
+	    albums {
+	      id
+	      name
+	    }
+	  }
+	}

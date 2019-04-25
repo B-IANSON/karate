@@ -1,0 +1,23 @@
+{  
+   id:#number,
+   name:'Mr Ben Test',
+   username:'tester_1985',
+   email:'automation@test.co.uk',
+   address:{  
+      street:'Test St',
+      suite:'Suite 85',
+      city:'New Test City',
+      zipcode:'84748-2737',
+      geo:{  
+         lat:'-38.1985',
+         lng:'59.1252'
+      }
+   },
+   phone:'013-827-2291',
+   website:'www.automationtest.co.uk',
+   company:{  
+      name:'Test Ltd',
+      catchPhrase:'Always be testing!',
+      bs:'dynamic test solutions'
+   }
+}
