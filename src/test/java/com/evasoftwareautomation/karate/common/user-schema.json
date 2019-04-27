@@ -1,23 +1,23 @@
 {  
-   id:#number,
-   name:'#string',
-   username:'#string',
-   email:'#regex ^[A-Za-z0-9@.]*$',
-   address:{  
-      street:'#string',
-      suite:'#string',
-      city:'#string',
-      zipcode:'#string',
-      geo:{  
-         lat:'#regex ^[0-9-.]*$',
-         lng:'#regex ^[0-9-.]*$'
+   "id":"#number",
+   "name":"#string",
+   "username":"#string",
+   "email":"#regex ^[A-Za-z0-9@.]*$",
+   "address":{  
+      "street":"#string",
+      "suite":"#string",
+      "city":"#string",
+      "zipcode":"#string",
+      "geo":{  
+         "lat":"#regex ^[0-9-.]*$",
+         "lng":"#regex ^[0-9-.]*$"
       }
    },
-   phone:'#string',
-   website:'#string',
-   company:{  
-      name:'#string',
-      catchPhrase:'#string',
-      bs:'#string'
+   "phone":"#string",
+   "website":"#string",
+   "company":{  
+      "name":"#string",
+      "catchPhrase":"#string",
+      "bs":"#string"
    }
 }
